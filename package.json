@@ -1,7 +1,7 @@
 {
   "name": "unda-royalties",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "release": "standard-version && pnpm sync-version",
-    "sync-version": "node scripts/sync-version.js"
+    "sync-version": "node scripts/sync-version.cjs"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.83.0",
